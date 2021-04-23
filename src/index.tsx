@@ -1,6 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import * as React from "react";
 
-export default () => {
-    return <div>Hello World</div>;
+type Props = {
+    message: string
+}
+
+export default ({message}: Props) => {
+    return <div>{message}</div>;
 };

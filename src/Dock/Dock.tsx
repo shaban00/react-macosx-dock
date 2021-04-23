@@ -1,6 +1,10 @@
-import React from "react";
+import * as React from "react";
 
-const Dock = () => {
+type Props = {
+
+}
+
+const Dock = ({}: Props) => {
     return <div>Dock</div>;
 };
 
